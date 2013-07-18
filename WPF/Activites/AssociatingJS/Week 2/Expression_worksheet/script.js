@@ -45,8 +45,8 @@ var itemDescription = "skim"; // This describes what the item is about.
 var itemPrice = "4"; // shows the price of item.
 var discount = "50"; // shows how much of a discount the items recieves. 
 var tax = "3"; // shows the amount of tax being added to the item. 
-var itemDiscount = discount / 100;
-var itemTax = tax / 100;
+var itemDiscount = discount / 100; // shows item's discount by dividing the dicount by 100.
+var itemTax = tax / 100; // shows the item tax by dividing the tax by 100.
 
 // Item deal with discount first without tax.
 
