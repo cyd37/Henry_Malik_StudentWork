@@ -23,3 +23,10 @@ var pizzaEaten = amountOfPizzas * amountOfSlices / amountOfPeople;
 
 console.log("Each person ate" , pizzaEaten, "slices at the party");
 
+// Slice of Pie II 
+
+// sparkyGot = amountOfPeople % pizzaEaten
+
+	var sparkyGot = 20 % 6;
+	console.log("Sparky got" , sparkyGot, "slices of pizza");
+
