@@ -32,7 +32,7 @@ console.log("Each person ate" , pizzaEaten, "slices at the party"); // Prints th
 
 // Average Shopping Bill
 
-	var bill = [50, 70, 30, 100, 20];
+	var bill = [50, 70, 30, 100, 20]; // shows the bill of each day at the grocery store.
 	var totalSpent = bill[0] + bill[1] + bill[2] + bill[3] + bill[4];
 	var average = totalSpent / 5;
 
