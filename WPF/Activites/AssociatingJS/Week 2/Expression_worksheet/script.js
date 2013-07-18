@@ -50,9 +50,9 @@ var itemTax = tax / 100; // shows the item tax by dividing the tax by 100.
 
 // Item deal with discount first without tax.
 
-discountPrice = itemPrice * itemDiscount;
+discountPrice = itemPrice * itemDiscount; // shows the discount price by multiplying the item price by the item discount. 
 
-discountInclude = itemPrice - discountPrice; 
+discountInclude = itemPrice - discountPrice; // shows the discount of the item by subtracting the item price from the discount price. 
 
 // Tax included after discount is applied. 
 
