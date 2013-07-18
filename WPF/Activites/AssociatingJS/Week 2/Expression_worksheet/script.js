@@ -13,9 +13,9 @@ console.log("The dog's real age is", dogAge); // Printing out the representation
 
 // Slice of Pie I 
 
-var amountOfSlices = 8;
-var amountOfPeople = 70; 
-var amountOfPizzas = 50;
+var amountOfSlices = 16;
+var amountOfPeople = 20; 
+var amountOfPizzas = 8;
 
 // pizza * slices / people 
 
