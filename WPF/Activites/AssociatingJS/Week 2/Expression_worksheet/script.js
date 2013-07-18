@@ -27,8 +27,8 @@ console.log("Each person ate" , pizzaEaten, "slices at the party"); // Prints th
 
 // sparkyGot = amountOfPeople % pizzaEaten
 
-	var sparkyGot = 20 % 6;
-	console.log("Sparky got" , sparkyGot, "slices of pizza");
+	var sparkyGot = 20 % 6; 
+	console.log("Sparky got" , sparkyGot, "slices of pizza"); // Prints the results to the console. 
 
 // Average Shopping Bill
 
