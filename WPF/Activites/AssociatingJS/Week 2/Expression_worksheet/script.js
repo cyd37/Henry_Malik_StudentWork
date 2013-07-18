@@ -19,7 +19,7 @@ var amountOfPizzas = 8;  // The amount of whole pizza at the party.
 
 // pizza * slices / people 
 
-var pizzaEaten = amountOfPizzas * amountOfSlices / amountOfPeople;
+var pizzaEaten = amountOfPizzas * amountOfSlices / amountOfPeople; // This shows that the amount of pizza eaten is the amount of pizzas multiplied by the amount of slices then divided by the amount of people at the party.
 
 console.log("Each person ate" , pizzaEaten, "slices at the party");
 
