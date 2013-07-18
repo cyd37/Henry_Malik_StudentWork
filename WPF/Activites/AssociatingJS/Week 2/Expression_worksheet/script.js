@@ -36,7 +36,7 @@ console.log("Each person ate" , pizzaEaten, "slices at the party"); // Prints th
 	var totalSpent = bill[0] + bill[1] + bill[2] + bill[3] + bill[4];
 	var average = totalSpent / 5;
 
-	console.log("You've spent a total of $" , totalSpent, "on groceries over 5 weeks. This brings it to a total of $" , average, "per week.")
+	console.log("You've spent a total of $" , totalSpent, "on groceries over 5 weeks. This brings it to a total of $" , average, "per week.") // Prints these results to the console. 
 
 // Discounts
 
