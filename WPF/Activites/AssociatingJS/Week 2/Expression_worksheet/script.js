@@ -42,9 +42,9 @@ console.log("Each person ate" , pizzaEaten, "slices at the party"); // Prints th
 
 var itemName = "milk"; // This is the name of the item.
 var itemDescription = "skim"; // This describes what the item is about. 
-var itemPrice = "4";
-var discount = "50";
-var tax = "3";
+var itemPrice = "4"; // shows the price of item.
+var discount = "50"; // shows how much of a discount the items recieves. 
+var tax = "3"; // shows the amount of tax being added to the item. 
 var itemDiscount = discount / 100;
 var itemTax = tax / 100;
 
