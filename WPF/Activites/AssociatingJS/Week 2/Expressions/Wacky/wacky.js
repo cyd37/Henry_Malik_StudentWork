@@ -2,7 +2,7 @@
 July 17 2013
 Expression Worksheet- Skype Users */
 
-// This shows how much money you would spend on a Pay As You Go Skype Credit deal in the USA . 
+// This shows how much money you would spend on a Pay As You Go Skype Credit deal in the USA which costs $2.03 per minute. 
 
 minsPerCall = prompt("How much minutes would you use per call?"); // how many minutes the user will use on each Skype call.
 
