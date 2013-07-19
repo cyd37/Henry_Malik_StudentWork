@@ -56,8 +56,8 @@ discountInclude = itemPrice - discountPrice; // shows the discount of the item b
 
 // Tax included after discount is applied. 
 
-taxPrice = discountInclude * itemTax;
-taxInclude = taxPrice + discountInclude; 
+taxPrice = discountInclude * itemTax; // shows tax price by multiplying the discount included by the item discount.
+taxInclude = taxPrice + discountInclude; // shows tax included by adding the tax price to the discount included. 
 
 console.log("The" , itemName, "was at first $" , itemPrice, "but after the" , discount , "% discount, it is now $" , discountInclude, "without the tax and $" , taxInclude, "with the tax.");
 
