@@ -9,16 +9,23 @@
 
 // To find out whether or not you should be a visual designer or a back-end designer.
 
-var selection = prompt("Are you more of a visual person or a critical thinker?");
+var selection = prompt("Are you more of a visual person or a critical thinker or both? \n \n Select Either: \n \n visual \n critical \n both");
 
 var visual = "visual"; 
 var critical = "critical";
 var visualAndCritical = "both";
 
-if(selection === "visual" ) {console.log("You should go more towards front end designing then.")
-}else{console.log("Maybe you should go towards back-end designing")}
+if(selection === "visual") {console.log("You should go more towards front end designing then.")
+}else{console.log("Make sure you input the correct word/spelling")}
 
 if(selection === "critical") {console.log("You should consider taking up back-end designing.")
-}else{console.log("Perhaps you should lean towards front-end designing.")}
+}
 
-if(selection === "both") {prompt("Well in this case, which one do you find easier to handle?")}
+if(selection === "both") {var selector = prompt("Well in this case, which one do you find easier to handle? \n \n Select one: \n visualizing \n thinking")}
+
+var visualizing = "visualizing";
+var thinking = "thinking"
+ 
+ if(selector === "visualizing") {console.log("You might as well stick with the front-end designing buddy.")}
+
+ if(selector === "thinking") {console.log("You should just continue with the back-end work pal.")}
