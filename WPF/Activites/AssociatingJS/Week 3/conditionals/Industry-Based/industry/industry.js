@@ -15,10 +15,10 @@ var visual = "visual";
 var critical = "critical";
 var visualAndCritical = "both";
 
-if(selection === "visual") {console.log("You should go more towards front end designing then.")
-}else{console.log("Make sure you input the correct word/spelling")}
+if(selection === "visual") {console.log("You should go more towards front end designing then.") //console will print out what your path should be which would be front-end designs. 
+}else{console.log("Make sure you input the correct word/spelling")} //console will print out this message if you mispelled the word or did not select one of the options.
 
-if(selection === "critical") {console.log("You should consider taking up back-end designing.")
+if(selection === "critical") {console.log("You should consider taking up back-end designing.") 
 }
 
 if(selection === "both") {var selector = prompt("Well in this case, which one do you find easier to handle? \n \n Select one: \n visualizing \n thinking")}
