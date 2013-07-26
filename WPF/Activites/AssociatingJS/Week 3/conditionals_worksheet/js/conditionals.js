@@ -86,8 +86,5 @@ if((age <= 10 || age >= 55 ) || (timeForShow >= 3 || timeForShow <= 5)){
 }else{
     console.log("the ticket price is",regularTicket);
 }
-//
-//if(timeTillShow >= 3 || timeTillShow <= 5){
-// console.log(discountTicket)
-//}
+
 
