@@ -21,21 +21,20 @@
     Reeses Cups
  */   
 
-var selection = prompt("Select one of the snacks we have available from the store. \n  oreos \n almond \n snickers \n reeses");
+var selection = prompt("Select one of the snacks we have available from the store. \n  oreos \n almond \n snickers \n reeses"); //Opens the prompt to make a selection.
 
-var oreo = "chocolate";
+var oreo = "chocolate"; //Oreo
 
-var almond = "coconut";
+var almond = "coconut"; //Almond Joy
 
-var snickers = "nuts";
+var snickers = "nuts"; // Snickers
 
-var reeses = "peanut Butter";
+var reeses = "peanut Butter"; // Reeses Cup peanut Butter
 
 
 if((selection === "almond") || (selection === "snickers")){
-    console.log("sorry you can't have this");
+    console.log("sorry you can't have this"); // Prints to the console that you cannot have the item.
 }else{
-    console.log("Here you go, have a good day!")
+    console.log("Here you go, have a good day!") // Prnts to the console that you can have the item.
 }
 
-// 
