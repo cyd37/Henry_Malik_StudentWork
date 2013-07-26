@@ -22,8 +22,4 @@ console.log("You sleep an average of", yourNumber,"hours a night. Which in a yea
 
 
 
-//average sleep 7
-//average lifespan 78.6 
-// 365 a year
-
 
