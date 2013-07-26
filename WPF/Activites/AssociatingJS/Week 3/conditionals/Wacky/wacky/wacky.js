@@ -11,12 +11,12 @@
 
 
 
-var daysInYear = 365;
-var lifeSpan = 78.6;
-var yourNumber = prompt("How much sleep do you get a night? (Answer in a whole number)");
-var averageSleep = yourNumber;
-var sleepAYear = yourNumber * daysInYear;
-var averageSleep = averageSleep * daysInYear * lifeSpan;
+var daysInYear = 365; //Days in a year.
+var lifeSpan = 78.6; //Average lifespan of a human being.
+var yourNumber = prompt("How much sleep do you get a night? (Answer in a whole number)"); //number input for the sleep you get per night.
+var averageSleep = yourNumber; 
+var sleepAYear = yourNumber * daysInYear; // The amount of sleep in hours you would get a year.
+var averageSleep = averageSleep * daysInYear * lifeSpan; //Average sleep in a lifetime. 
 console.log("You sleep an average of", yourNumber,"hours a night. Which in a year totals out to be", sleepAYear," hours a year and",averageSleep, " hours in your lifetime.");
 
 
