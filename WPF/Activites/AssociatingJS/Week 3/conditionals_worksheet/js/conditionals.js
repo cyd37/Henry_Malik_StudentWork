@@ -68,3 +68,26 @@ if (gradeNumber >= 95){
     
 } else
     console.log("You received a " + gradeNumber + " which results to a failure."); //This returns to a failure.
+
+
+
+    // Movie Ticket Price
+
+//Given items
+var timeForShow = 2;
+var age = 13;
+var regularTicket = 12;
+var discountTicket = 7;
+
+((age <= 10 || age >= 55) || (timeForShow <= 3 || timeForShow >= 5)) ? console.log("The ticket Price is",discountTicket) : console.log("The ticket price is",regularTicket);
+
+if((age <= 10 || age >= 55 ) || (timeForShow >= 3 || timeForShow <= 5)){
+    console.log("The ticket price is",discountTicket);
+}else{
+    console.log("the ticket price is",regularTicket);
+}
+//
+//if(timeTillShow >= 3 || timeTillShow <= 5){
+// console.log(discountTicket)
+//}
+
