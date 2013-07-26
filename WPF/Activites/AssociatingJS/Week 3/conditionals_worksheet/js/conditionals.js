@@ -74,17 +74,17 @@ if (gradeNumber >= 95){
     // Movie Ticket Price
 
 //Given items
-var timeForShow = 2;
-var age = 13;
-var regularTicket = 12;
-var discountTicket = 7;
+var timeForShow = 2; // The time the show is being played.
+var age = 13; // Age of the person.
+var regularTicket = 12; // Price of the regular ticket price
+var discountTicket = 7; // Price of the discounted ticket if requirements are met.
 
-((age <= 10 || age >= 55) || (timeForShow <= 3 || timeForShow >= 5)) ? console.log("The ticket Price is",discountTicket) : console.log("The ticket price is",regularTicket);
+((age <= 10 || age >= 55) || (timeForShow <= 3 || timeForShow >= 5)) ? console.log("The ticket Price is now",discountTicket) : console.log("The ticket price is",regularTicket);
 
 if((age <= 10 || age >= 55 ) || (timeForShow >= 3 || timeForShow <= 5)){
-    console.log("The ticket price is",discountTicket);
+    console.log("The ticket price is now",discountTicket);
 }else{
-    console.log("the ticket price is",regularTicket);
+    console.log("The ticket price is now",regularTicket);
 }
 
 
