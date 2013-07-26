@@ -31,11 +31,11 @@ if(selection === "critical") {console.log("You should consider taking up back-en
 
 if(selection === "both") {var selector = prompt("Well in this case, which one do you find easier to handle? \n \n Select one: \n visualizing \n thinking")} // This will ask you an additional question if you select "both" as an answer.
 
-var visualizing = "visualizing";
-var thinking = "thinking"
+var visualizing = "visualizing"; //Option based on prompt selection.
+var thinking = "thinking" //Option based on prompt selection.
  
- if(selector === "visualizing") {console.log("You might as well stick with the front-end designing buddy.")}
+ if(selector === "visualizing") {console.log("You might as well stick with the front-end designing buddy.")} //Prints out to the console about the reconsideration of you being a front-end designer.
 
- if(selector === "thinking") {console.log("You should just continue with the back-end work pal.")}
+ if(selector === "thinking") {console.log("You should just continue with the back-end work pal.")} //Prints out to the console about the reconsideration of you being a back-end designer.
 
 
