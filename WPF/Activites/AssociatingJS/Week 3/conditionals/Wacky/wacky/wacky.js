@@ -17,7 +17,7 @@ var yourNumber = prompt("How much sleep do you get a night? (Answer in a whole n
 var averageSleep = yourNumber; 
 var sleepAYear = yourNumber * daysInYear; // The amount of sleep in hours you would get a year.
 var averageSleep = averageSleep * daysInYear * lifeSpan; //Average sleep in a lifetime. 
-console.log("You sleep an average of", yourNumber,"hours a night. Which in a year totals out to be", sleepAYear," hours a year and",averageSleep, " hours in your lifetime.");
+console.log("You sleep an average of", yourNumber,"hours a night. Which in a year totals out to be", sleepAYear," hours a year and",averageSleep, " hours in your lifetime."); //This prints out to the console how much sleep the human being gets in a year.
 
 
 
