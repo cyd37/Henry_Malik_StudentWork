@@ -9,7 +9,7 @@
 
 // To find out whether or not you should be a visual designer or a back-end designer.
 
-var selection = prompt("Are you more of a visual person or a critical thinker or both? \n \n Select Either: \n \n visual \n critical \n both");
+var selection = prompt("Are you more of a visual person or a critical thinker or both? \n \n Select Either: \n \n visual \n critical \n both"); //Opens up the prompt to choose a specific interest.
 
 var visual = "visual"; 
 var critical = "critical";
