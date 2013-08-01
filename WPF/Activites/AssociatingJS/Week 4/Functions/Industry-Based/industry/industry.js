@@ -29,8 +29,8 @@ function showResults() // Defines bandwith related variables and perform mathema
 	
 		var duration = (endTime - startTime) / 1000; //Creates a variable for duration ands assigns two values and divides it with an expression of 1,000.
 		var bitsLoaded = downloadSize * 8; //Creates a variable that includes the downloadSize variable and multiplies it by 8 for the amount of bits in a byte. 
-		var speedBps = (bitsLoaded /duration).toFixed(2);
-	    var speedKbps = (speedBps /1024).toFixed(2); 
-		var speedMbps = (speedKbps /1024).toFixed(2); 
-		   alert("Your connection speed is: \n" + speedBps + " bps\n" + speedKbps + " kbps\n" + speedMbps + " Mbps\n" ); 
+		var speedBps = (bitsLoaded /duration).toFixed(2); // Creates variable that uses the two previous variables.
+	    var speedKbps = (speedBps /1024).toFixed(2); // Creates a variable. 
+		var speedMbps = (speedKbps /1024).toFixed(2); //Creates a variable.
+		   alert("Your connection speed is: \n" + speedBps + " bps\n" + speedKbps + " kbps\n" + speedMbps + " Mbps\n" ); //Shows the speed of your network connection. 
 }
