@@ -13,8 +13,8 @@
 var imageAddr = "test.jpg" + "? n=" + Math.random(); // Defining the imageAddr variable a picture plus a random number.
 var startTime, endTime; // Creating two more variables to mark start and end of task. 
 var downloadSize = 200000; // Creating a next variable and assigning it the value of your download size.
-var download = new Image(); // Creates variable and assigned to 
-download.onload = function ()
+var download = new Image(); // Creates variable and assigned a value. 
+download.onload = function () //Creates a function for the download variable. 
 
 {
 	 endTime = (new Date()).getTime(); // Using the onload function and it's defining the time variables created earlier. 
