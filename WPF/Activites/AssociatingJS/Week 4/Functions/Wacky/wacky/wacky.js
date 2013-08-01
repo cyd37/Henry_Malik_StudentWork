@@ -26,11 +26,11 @@ var wordBank = {
 var funnyInsults;
 //set up and get a random word for each section of our insult
 
-var word1 = wordBank.word1[[Math.floor(Math.random()*wordBank.word1.length)]];
+var word1 = wordBank.word1[[Math.floor(Math.random()*wordBank.word1.length)]]; // This variable includes the first bank of words to generate. 
 
-var word2 = wordBank.word2[[Math.floor(Math.random()*wordBank.word2.length)]];
+var word2 = wordBank.word2[[Math.floor(Math.random()*wordBank.word2.length)]]; // This variable includes the second bank of words to generate.
 
-var word3 = wordBank.word3[[Math.floor(Math.random()*wordBank.word3.length)]];
+var word3 = wordBank.word3[[Math.floor(Math.random()*wordBank.word3.length)]]; // This variable includes the third bank of words to generate.
 
 //Create Insult
 funnyInsults = 'Thou '+word1+' '+word2+' '+word3+'!';
