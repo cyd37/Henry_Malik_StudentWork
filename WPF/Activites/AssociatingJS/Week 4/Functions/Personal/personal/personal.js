@@ -7,7 +7,7 @@
 //This code uses the image rollover function. 
 
 
-if (document.images) {
+if (document.images) {     // You would have to put in your own images for this to work.
 	smile = new Image
 	nosmile = new Image
 
