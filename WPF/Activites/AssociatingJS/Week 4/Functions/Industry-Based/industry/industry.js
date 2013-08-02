@@ -10,7 +10,7 @@
 // This code shows the speed of your network connection by showing by downloading any image you may have.
 
 
-var imageAddr = "test.jpg" + "? n=" + Math.random(); // Defining the imageAddr variable a picture plus a random number.
+var imageAddr = "industry/test.jpg" + "? n=" + Math.random(); // Defining the imageAddr variable a picture plus a random number. Make sure to update the path to where you place your file. 
 var startTime, endTime; // Creating two more variables to mark start and end of task. 
 var downloadSize = 200000; // Creating a next variable and assigning it the value of your download size.
 var download = new Image(); // Creates variable and assigned a value. 
