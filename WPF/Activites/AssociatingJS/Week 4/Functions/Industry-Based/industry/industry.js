@@ -7,7 +7,7 @@
 //Industry-Based Function 
 
 
-
+// This code shows the speed of your network connection by showing by downloading any image you may have.
 
 
 var imageAddr = "test.jpg" + "? n=" + Math.random(); // Defining the imageAddr variable a picture plus a random number.
