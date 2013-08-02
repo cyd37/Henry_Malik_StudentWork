@@ -32,6 +32,6 @@ var word2 = wordBank.word2[[Math.floor(Math.random()*wordBank.word2.length)]]; /
 var word3 = wordBank.word3[[Math.floor(Math.random()*wordBank.word3.length)]]; // This variable includes the third bank of words to generate.
 
 //Creates the insults using the three variables previously. 
-funnyInsults = 'Thou '+word1+' '+word2+' '+word3+'!'; // This includes the three variable to generate the insult.
+funnyInsults = 'You '+word1+' '+word2+' '+word3+'!'; // This includes the three variable to generate the insult.
 alert(funnyInsults); // Shows the alert with the insult generated.
 console.log(funnyInsults); //Prints out to the console the same in the alert box.
